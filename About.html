@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donote For Cause</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/ebc46c8cd2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Duty-of-care.html">Duty Of Care</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>  
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We empower health care workers facing the world’s greatest health crises to build resilient communities and a healthier, more equitable world.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum iure neque delectus accusamus rem culpa est id, ducimus vero libero quasi deserunt nihil adipisci natus consectetur molestiae quaerat saepe quo soluta! Repellendus eius necessitatibus officiis numquam? Praesentium cupiditate sint id maiores aperiam saepe vel, dicta perspiciatis laborum necessitatibus eum.</p>
+            </div>
+            <div class="about-col">
+                <img src="v.jpeg">
+            </div>
+        </div>
+    </section>
+
+        
+<!-------------Footer---------->
+
+<section class="footer">
+    <p>By entering your mobile number , you will agree to receive SMS notifications from us.<br>If you would like assistance with your donation, please contact at 022-2345-6789,<br>Monday to Sunday 8am-11pm or email us at donations@healthcare.org<p>
+    <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by ASHU</p>
+</section>
+
+
+
+<!---------Javascript for Menu---------->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
